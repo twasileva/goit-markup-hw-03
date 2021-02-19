@@ -60,11 +60,14 @@ img {
 }
 
 /* HEADER */
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 
 .nav {
@@ -247,6 +250,7 @@ img {
 }
 
 .team-element {
+  width: 270px;
   text-align: center;
   background-color: var(--white-text-color);
 }
@@ -350,7 +354,7 @@ img {
 .btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .btn-item:not(:last-child) {
